@@ -10,3 +10,17 @@ Comments: [Helen DA] Added comment as practice
 Comments: [HelenDA] Added comment to create branch
 Comments: [Sam S] Added comment as practice 110116
 Comments: [Sam S] Comment in sstonehouse-m914-branch example
+
+Comments: [Sam S] Sam Stonehouse first requirement
+Comments: [Sam S] REQ-ID: JustTheTicket_sstonehouse_customer_return_ticket_requirement_one
+Comments: [Sam S] Description: The product shall accept a valid customer identifier.
+Comments: [Sam S] Type: functional
+Comments: [Sam S] Rationale: To make sure the ticket were sold to a valid customer.
+Comments: [Sam S] Originator: Brisbane_Leslie Patterson
+
+Comments: [Sam S] Sam Stonehouse second requirement
+Comments: [Sam S] REQ-ID: JustTheTicket_sstonehouse_customer_return_ticket_requirement_two
+Comments: [Sam S] Description: The product shall record the ticket has returned.
+Comments: [Sam S] Type: functional
+Comments: [Sam S] Rationale: To make the returned tickets are available for reselling.
+Comments: [Sam S] Originator: Brisbane_Edna Everage
