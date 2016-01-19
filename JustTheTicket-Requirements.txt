@@ -9,8 +9,19 @@ Comments: [M814-ModuleChair] Added a comment to demonstrate new branch mm25645-e
 Comments: [Helen DA] Added comment as practice
 Comments: [HelenDA] Added comment to create branch
 Comments: [Sam S] Added comment as practice 110116
-Comments: [Rich T] Added comment as test
+Comments: [Amelja] Added two functional requirements (RT-FRQ-01 and RT-FRQ-02) 18/01/16
 
+REQ-ID: RT-FRQ-01 [Booking System (BUC1.2)]
+Description:  The system will determine which tickets are to be de-allocated.
+Type: Functional
+Rationale: This will enable other functions to update the ticket inventory accordingly, and return the correct funds to the customer.
+Originator: Leslie Patterson 
+
+REQ-ID: RT-FRQ-02 [Booking System (BUC1.2)]
+Description: The system will remove the allocations for specified tickets.
+Type: Functional
+Rationale: This will prevent the customer from re-using the same tickets after a refund, and make them available for allocation to other customers.
+Originator: Leslie Patterson
 
 
 
