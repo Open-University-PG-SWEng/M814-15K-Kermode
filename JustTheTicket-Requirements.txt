@@ -23,5 +23,18 @@ Type: Functional
 Rationale: This will prevent the customer from re-using the same tickets after a refund, and make them available for allocation to other customers.
 Originator: Leslie Patterson
 
+Comments: [Sam S] Sam Stonehouse adding two functional requirments [BUC_RT01] and [BUC_RT02] 20_Jan_16
+Comments: [Sam S] Sam Stonehouse first requirement
+REQ-ID: BUC_RT01
+Description: The product shall accept a valid customer identifier.
+Type: functional
+Rationale: To make sure the ticket were sold to a valid customer.
+Originator: Brisbane_Leslie Patterson
 
-
+Comments: [Sam S] Sam Stonehouse second requirement
+REQ-ID: BUC_RT02
+Description: The product shall record the ticket has returned.
+Type: functional
+Rationale: To make the returned tickets are available for reselling.
+Originator: Brisbane_Edna Everage
+Comments: [Sam S] Finished adding two requirments
