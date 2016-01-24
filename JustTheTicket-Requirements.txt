@@ -38,3 +38,17 @@ Type: functional
 Rationale: To make the returned tickets are available for reselling.
 Originator: Brisbane_Edna Everage
 Comments: [Sam S] Finished adding two requirments
+
+REQ-ID: HD_Func01
+Description: The system shal hold returned tickets until the next reallocation run
+Type: Functional
+Rationale: To allow for analaysis of the return prior to reallocating to the wait list
+Originator: Enda Everage
+Comments [Helen_DA] Added Functional requirement 1
+
+REQ-ID: HD_Func02
+Description: The system shall allow the customer to select the number of tickets being returned
+Type: Functional
+Rationale: The customer may only need to return some of the tickets allocated to them.
+Originator: Leslie Patterson
+Comments [Helen_DA] Added Functional requirement 2
