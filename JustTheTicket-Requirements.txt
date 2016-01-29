@@ -52,3 +52,15 @@ Type: Functional
 Rationale: The customer may only need to return some of the tickets allocated to them.
 Originator: Leslie Patterson
 Comments [Helen_DA] Added Functional requirement 2
+
+REQ-ID: 001
+Description: The product shall accept one or more tickets for return
+Type: 9
+Rationale: Customers can return tickets that are no longer required.
+Originator: Leslie Patterson
+
+REQ-ID:02
+Description:The product shall place returned tickets into a temporary store
+Type:9
+Rationale: Games organisers can review reasons for returns, detect fraud and manually reallocate tickets.
+Originator: Edna Everage 
