@@ -64,3 +64,15 @@ Description:The product shall place returned tickets into a temporary store
 Type:9
 Rationale: Games organisers can review reasons for returns, detect fraud and manually reallocate tickets.
 Originator: Edna Everage 
+
+REQ-ID: 003
+Description: The product shall ensure that the ticket being returned is authentic.
+Type: Functional
+Rationale: If the seat associated with an unauthentic ticket is allowed to be reallocated, there will not be enough seats available on the day of the event.
+Originator: Edna Everage
+
+REQ-ID: 004
+Description: The product shall ensure that the ticket being returned is valid.
+Type: Functional
+Rationale: If the seat associated with an invalid ticket (i.e. a ticket that has already been returned) is allowed to be reallocated, there will not be enough seats available on the day of the event.
+Originator: Edna Everage
