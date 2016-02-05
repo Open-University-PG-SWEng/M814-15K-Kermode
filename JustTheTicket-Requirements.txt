@@ -80,9 +80,9 @@ Originator: Edna Everage
 REQ-ID: 005
 Description: The product shall allow the customer to identify the ticket(s) and number to be returned.
 Rational: To be able to identify which tickets need to be returned and how many.
-Originator: Jacqui Keith
+Originator: Leslie Patterson
 
 REQ-ID: 006
 Description: The product shall allow a ticket return reason to be entered.
 Rational: To allow the organisers to determine any pattern in the ticket return reasons.
-Originator: Jacqui Keith
+Originator: Edna Everage
