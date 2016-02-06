@@ -10,6 +10,7 @@ Comments: [Helen DA] Added comment as practice
 Comments: [HelenDA] Added comment to create branch
 Comments: [Sam S] Added comment as practice 110116
 Comments: [Amelja] Added two functional requirements (RT-FRQ-01 and RT-FRQ-02) 18/01/16
+Comments: [MickC] Added two functional requirements MWC001 and MWC002 (6 February 2016)
 
 REQ-ID: RT-FRQ-01 [Booking System (BUC1.2)]
 Description:  The system will determine which tickets are to be de-allocated.
@@ -86,3 +87,15 @@ REQ-ID: 006
 Description: The product shall allow a ticket return reason to be entered.
 Rational: To allow the organisers to determine any pattern in the ticket return reasons.
 Originator: Edna Everage - Domestic Ticket Sales
+
+REQ-ID: MWC001 
+Description: The product shall ensure that any tickets being returned by a customer were issued to that customer.
+Type: Functional
+Rationale: Only tickets issues to a customer can be returned by that customer.  Tickets returned by persons other than the original customer may have been fraudulently obtained or stolen.
+Originator: Leslie Patterson
+
+REQ-ID: MWC002
+Description: The product shall ensure that any tickets being returned were genuinely issued.
+Type: Functional
+Rationale: Fraud prevention: only legitimate tickets can be returned to inventory.  Duplicate or fake tickets cannot be returned.
+Originator: Leslie Patterson
