@@ -12,6 +12,7 @@ Comments: [Sam S] Added comment as practice 110116
 Comments: [Amelja] Added two functional requirements (RT-FRQ-01 and RT-FRQ-02) 18/01/16
 Comments: [MickC] Added two functional requirements MWC001 and MWC002 (6 February 2016)
 Comments: [Prd64] Added two functional requirements REQ_01 and REQ_02 (7/2/16)  
+Comments: [LucyArch] Added 2 functional requirements REQ_LA_01 and REQ_LA_01 (07/02/16)
 
 
 REQ-ID: RT-FRQ-01 [Booking System (BUC1.2)]
@@ -126,3 +127,14 @@ Type        : Functional
 Rationale   : Tickets are stored for up to 24hours so the organisers can check and then reallocate them
 Originator  : Edna Everage in Brisbane
 
+REG-ID : REQ_LA_01
+Description : The product shall ensure that the selected tickets being returned are connected to the correctly identified customer. 
+Type: Functional
+Rationale : The customer can only return tickets that they have purchased, this prevents tickets being returned by fraudulent customers.  
+Originator : Leslie Patterson - Business development
+
+REG-ID : REQ_LA_02
+Description : The product shall only allow a ticket to be returned for a future event.
+Type: Functional
+Rationale : A customer can only return a ticket for an event that has not already taken place. 
+Originator : Edna Everage - Domestic ticket sales
