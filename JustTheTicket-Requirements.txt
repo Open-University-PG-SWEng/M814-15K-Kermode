@@ -113,3 +113,16 @@ Description: The product shall confirm that the number of tickets requested to b
 Type: Functional
 Rationale: To verify that the customer has not made a mistake entering the number of tickets
 Originator: Edna Everage - Ticket Sales Representative
+
+REQ-ID      : FR_001
+Description : The product shall ensure the tickets are valid i.e They exist and are not past their date of use.
+Type        : Functional
+Rationale   : Anti fraud check to prevent used or bogus tickets getting a refund.
+Originator  : Edna Everage in Brisbane
+
+REQ-ID      : FR_002
+Description : The product shall assign returned tickets to a reallocation queue
+Type        : Functional
+Rationale   : Tickets are stored for up to 24hours so the organisers can check and then reallocate them
+Originator  : Edna Everage in Brisbane
+
