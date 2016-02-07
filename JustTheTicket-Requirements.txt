@@ -11,6 +11,8 @@ Comments: [HelenDA] Added comment to create branch
 Comments: [Sam S] Added comment as practice 110116
 Comments: [Amelja] Added two functional requirements (RT-FRQ-01 and RT-FRQ-02) 18/01/16
 Comments: [MickC] Added two functional requirements MWC001 and MWC002 (6 February 2016)
+Comments: [Prd64] Added two functional requirements REQ_01 and REQ_02 (7/2/16)  
+
 
 REQ-ID: RT-FRQ-01 [Booking System (BUC1.2)]
 Description:  The system will determine which tickets are to be de-allocated.
@@ -99,3 +101,15 @@ Description: The product shall ensure that any tickets being returned were genui
 Type: Functional
 Rationale: Fraud prevention: only legitimate tickets can be returned to inventory.  Duplicate or fake tickets cannot be returned.
 Originator: Leslie Patterson
+
+REQ-ID: PRD_001
+Description: The product shall check that the customer has bought ticket(s)
+Type: Functional
+Rationale: In order to return tickets and get a refund, the customer should already have bought at least one. This also confirms this is a valid customer
+Originator: Edna Everage - Ticket Sales Representative
+
+REQ-ID: PRD_002
+Description: The product shall confirm that the number of tickets requested to be returned is not greater than the number already bought
+Type: Functional
+Rationale: To verify that the customer has not made a mistake entering the number of tickets
+Originator: Edna Everage - Ticket Sales Representative
