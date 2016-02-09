@@ -13,6 +13,7 @@ Comments: [Amelja] Added two functional requirements (RT-FRQ-01 and RT-FRQ-02) 1
 Comments: [MickC] Added two functional requirements MWC001 and MWC002 (6 February 2016)
 Comments: [Prd64] Added two functional requirements REQ_01 and REQ_02 (7/2/16)  
 Comments: [LucyArch] Added 2 functional requirements REQ_LA_01 and REQ_LA_01 (07/02/16)
+Comments: [jon-ayling] Added 2 functional requirements (09/02/16)
 
 
 REQ-ID: RT-FRQ-01 [Booking System (BUC1.2)]
@@ -138,3 +139,15 @@ Description : The product shall only allow a ticket to be returned for a future 
 Type: Functional
 Rationale : A customer can only return a ticket for an event that has not already taken place. 
 Originator : Edna Everage - Domestic ticket sales
+
+REQ-ID: REQ-JA-01
+Description: The product shall ensure that the ticket(s) to be returned were originally issued to the identified customer
+Type: Functional
+Rationale: As a protection against black-market exchange and fraudulent return of tickets, this will prevent customers returning tickets they did not originally buy
+Originator: Edna Evridge, via interview
+
+REQ-ID: REQ-JA-02
+Description: The product shall retrieve ticket details, and display them to the user for verification before proceeding with refund
+Type: Functional
+Rationale: To safeguard against users unfairly losing tickets in the event of unintentionally entering incorrect ticket identifiers
+Originator: Leslie Patterson, via interview
