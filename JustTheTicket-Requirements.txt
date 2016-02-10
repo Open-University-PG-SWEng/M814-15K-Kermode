@@ -163,3 +163,16 @@ Description: The product shall accommodate the resale value of the returned tick
 Type: Functional
 Rationale: The customer needs to be returned some amount of money for their tickets.
 Originator: Tacit from comments by Leslie Patterson, via interview
+
+REQ-ID: R01
+Description: The product determines whether or not the customer previously purchased the tickets she wishes to return
+Type: Functional
+Rationale: A: A customer shall only be able to return tickets she actually purchased - fraud prevention
+Originator: Leslie Patterson
+
+REQ-ID: R02
+Description: The product reallocates the tickets as given by the customer into temporary store
+Type: Functional
+Rationale: Once returned by a customer, the tickets shall be reallocated and subsequently again made available to customers
+Originator: Edna Everage
+
