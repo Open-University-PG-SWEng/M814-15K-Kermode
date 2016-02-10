@@ -13,7 +13,7 @@ Comments: [Amelja] Added two functional requirements (RT-FRQ-01 and RT-FRQ-02) 1
 Comments: [MickC] Added two functional requirements MWC001 and MWC002 (6 February 2016)
 Comments: [Prd64] Added two functional requirements REQ_01 and REQ_02 (7/2/16)  
 Comments: [LucyArch] Added 2 functional requirements REQ_LA_01 and REQ_LA_01 (07/02/16)
-Comments: [jon-ayling] Added 2 functional requirements (09/02/16)
+Comments: [jon-ayling] Added 2 functional requirements REQ-JA-01 and REQ-JA-02 (09/02/16)
 
 
 REQ-ID: RT-FRQ-01 [Booking System (BUC1.2)]
