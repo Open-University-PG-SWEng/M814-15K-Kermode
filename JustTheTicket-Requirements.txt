@@ -176,3 +176,8 @@ Type: Functional
 Rationale: Once returned by a customer, the tickets shall be reallocated and subsequently again made available to customers
 Originator: Edna Everage
 
+REQ-ID REQ-PB-01
+Description: The product shall ensure that returned ticket(s) are valid
+Type: FunctionalRationale – To allow invalid tickets to be identified and investigated to identify any fraudulent activityOriginator – Edna EverageREQ-ID REQ-PB-02
+Description: The product shall notify the Customer of the outcome of the ticket(s) return
+Type: FunctionalRationale – To ensure that the Customer knows whether to expect a credit to their Credit Card for the cost of the ticket, or if the Customer is a Sponsor so that they know tickets are being reallocatedOriginator – Edna Everage
