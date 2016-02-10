@@ -14,7 +14,7 @@ Comments: [MickC] Added two functional requirements MWC001 and MWC002 (6 Februar
 Comments: [Prd64] Added two functional requirements REQ_01 and REQ_02 (7/2/16)  
 Comments: [LucyArch] Added 2 functional requirements REQ_LA_01 and REQ_LA_01 (07/02/16)
 Comments: [jon-ayling] Added 2 functional requirements REQ-JA-01 and REQ-JA-02 (09/02/16)
-
+Comments: [mwhitfield16] Added 2 functional requirements REQ-MW-01 and REQ-MW-02 (10/02/16)
 
 REQ-ID: RT-FRQ-01 [Booking System (BUC1.2)]
 Description:  The system will determine which tickets are to be de-allocated.
@@ -151,3 +151,15 @@ Description: The product shall retrieve ticket details, and display them to the 
 Type: Functional
 Rationale: To safeguard against users unfairly losing tickets in the event of unintentionally entering incorrect ticket identifiers
 Originator: Leslie Patterson, via interview
+
+REQ-ID: REQ-MW-01
+Description: The product shall provide for returned tickets to be reallocated.
+Type: Functional
+Rationale: A main goal is to have full venues which can only be accomplished if returned tickets are redistributed. 
+Originator: Leslie Patterson, via interview
+
+REQ-ID: REQ-MW-02
+Description: The product shall accommodate the resale value of the returned tickets.
+Type: Functional
+Rationale: The customer needs to be returned some amount of money for their tickets.
+Originator: Tacit from comments by Leslie Patterson, via interview
