@@ -11,7 +11,7 @@ Comments: [HelenDA] Added comment to create branch
 Comments: [Sam S] Added comment as practice 110116
 Comments: [Amelja] Added two functional requirements (RT-FRQ-01 and RT-FRQ-02) 18/01/16
 Comments: [MickC] Added two functional requirements MWC001 and MWC002 (6 February 2016)
-Comments: [Prd64] Added two functional requirements REQ_01 and REQ_02 (7/2/16)  
+Comments: [Prd64] Added two functional requirements REQ_01 and REQ_02 (7/2/16)
 Comments: [LucyArch] Added 2 functional requirements REQ_LA_01 and REQ_LA_01 (07/02/16)
 Comments: [jon-ayling] Added 2 functional requirements REQ-JA-01 and REQ-JA-02 (09/02/16)
 Comments: [mwhitfield16] Added 2 functional requirements REQ-MW-01 and REQ-MW-02 (10/02/16)
@@ -20,7 +20,7 @@ REQ-ID: RT-FRQ-01 [Booking System (BUC1.2)]
 Description:  The system will determine which tickets are to be de-allocated.
 Type: Functional
 Rationale: This will enable other business functions to update the ticket inventory accordingly, and return the correct funds to the customer.
-Originator: Leslie Patterson 
+Originator: Leslie Patterson
 
 REQ-ID: RT-FRQ-02 [Booking System (BUC1.2)]
 Description: The system will remove the allocations for specified tickets.
@@ -68,7 +68,7 @@ REQ-ID:02
 Description:The product shall place returned tickets into a temporary store
 Type:9
 Rationale: Games organisers can review reasons for returns, detect fraud and manually reallocate tickets.
-Originator: Edna Everage 
+Originator: Edna Everage
 
 REQ-ID: 003
 Description: The product shall ensure that the ticket being returned is authentic.
@@ -92,7 +92,7 @@ Description: The product shall allow a ticket return reason to be entered.
 Rational: To allow the organisers to determine any pattern in the ticket return reasons.
 Originator: Edna Everage - Domestic Ticket Sales
 
-REQ-ID: MWC001 
+REQ-ID: MWC001
 Description: The product shall ensure that any tickets being returned by a customer were issued to that customer.
 Type: Functional
 Rationale: Only tickets issues to a customer can be returned by that customer.  Tickets returned by persons other than the original customer may have been fraudulently obtained or stolen.
@@ -129,15 +129,15 @@ Rationale   : Tickets are stored for up to 24hours so the organisers can check a
 Originator  : Edna Everage in Brisbane
 
 REG-ID : REQ_LA_01
-Description : The product shall ensure that the selected tickets being returned are connected to the correctly identified customer. 
+Description : The product shall ensure that the selected tickets being returned are connected to the correctly identified customer.
 Type: Functional
-Rationale : The customer can only return tickets that they have purchased, this prevents tickets being returned by fraudulent customers.  
+Rationale : The customer can only return tickets that they have purchased, this prevents tickets being returned by fraudulent customers.
 Originator : Leslie Patterson - Business development
 
 REG-ID : REQ_LA_02
 Description : The product shall only allow a ticket to be returned for a future event.
 Type: Functional
-Rationale : A customer can only return a ticket for an event that has not already taken place. 
+Rationale : A customer can only return a ticket for an event that has not already taken place.
 Originator : Edna Everage - Domestic ticket sales
 
 REQ-ID: REQ-JA-01
@@ -155,7 +155,7 @@ Originator: Leslie Patterson, via interview
 REQ-ID: REQ-MW-01
 Description: The product shall provide for returned tickets to be reallocated.
 Type: Functional
-Rationale: A main goal is to have full venues which can only be accomplished if returned tickets are redistributed. 
+Rationale: A main goal is to have full venues which can only be accomplished if returned tickets are redistributed.
 Originator: Leslie Patterson, via interview
 
 REQ-ID: REQ-MW-02
@@ -187,3 +187,15 @@ Description: The product shall notify the Customer of the outcome of the ticket(
 Type: Functional
 Rationale - To ensure that the Customer knows whether to expect a credit to their Credit Card for the cost of the ticket, or if the Customer is a Sponsor so that they know tickets are being reallocated
 Originator - Edna Everage
+
+REQ-ID: REQ-AW-01
+Description: The product will explain the returns policy and provide access to more detailed information in the systems help functionality or similar location
+Type: Functional
+Rationale – The Games must be fair and be seen to be fair to those who want or need to return tickets. Based on principles of transparency and will need further client discussions
+Originator – Leslie Patterson
+
+REQ-ID: REQ-AW-02
+Description: The product will provide the customer with options for recording or being sent by e-mail or text the details of the returns they have made
+Type: Functional
+Rationale - The Games must be fair and be seen to be fair to those who want or need to return tickets. Based on principles of transparency and will need further client discussions
+Originator - Leslie Patterson
