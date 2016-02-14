@@ -187,3 +187,13 @@ Description: The product shall notify the Customer of the outcome of the ticket(
 Type: Functional
 Rationale - To ensure that the Customer knows whether to expect a credit to their Credit Card for the cost of the ticket, or if the Customer is a Sponsor so that they know tickets are being reallocated
 Originator - Edna Everage
+
+REQ-ID: CAS-01
+Description: The product shall refund the customer.
+Rationale: The customer will only return unwanted tickets if reimbursed. The system should be fair to those customers who want to return tickets.
+Originator: Leslie Patterson (teleconference [date]).
+
+REQ-ID: CAS-02
+Description: The product shall allow a returns report to be generated.
+Rationale: Leslie and Edna want to review the reasons for and the pattern of returns on a daily basis in order to detect problems or fraud.
+Originator: Edna Everage (teleconference [date]).
