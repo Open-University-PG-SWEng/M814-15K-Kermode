@@ -28,14 +28,6 @@ Type: Functional
 Rationale: This will prevent the customer from re-using the same tickets after a refund, and make them available for allocation to other customers.
 Originator: Leslie Patterson
 
-Comments: [Sam S] Sam Stonehouse adding two functional requirments [BUC_RT01] and [BUC_RT02] 20_Jan_16
-Comments: [Sam S] Sam Stonehouse first requirement
-REQ-ID: BUC_RT01
-Description: The product shall accept a valid customer identifier.
-Type: functional
-Rationale: To make sure the ticket were sold to a valid customer.
-Originator: Brisbane_Leslie Patterson
-
 Comments: [Sam S] Sam Stonehouse second requirement
 REQ-ID: BUC_RT02
 Description: The product shall record the ticket has returned.
@@ -44,43 +36,11 @@ Rationale: To make the returned tickets are available for reselling.
 Originator: Brisbane_Edna Everage
 Comments: [Sam S] Finished adding two requirments
 
-REQ-ID: HD_Func01
-Description: The system shal hold returned tickets until the next reallocation run
-Type: Functional
-Rationale: To allow for analaysis of the return prior to reallocating to the wait list
-Originator: Enda Everage
-Comments [Helen_DA] Added Functional requirement 1
-
-REQ-ID: HD_Func02
-Description: The system shall allow the customer to select the number of tickets being returned
-Type: Functional
-Rationale: The customer may only need to return some of the tickets allocated to them.
-Originator: Leslie Patterson
-Comments [Helen_DA] Added Functional requirement 2
-
 REQ-ID: 001
 Description: The product shall accept one or more tickets for return
 Type: 9
 Rationale: Customers can return tickets that are no longer required.
 Originator: Leslie Patterson
-
-REQ-ID:02
-Description:The product shall place returned tickets into a temporary store
-Type:9
-Rationale: Games organisers can review reasons for returns, detect fraud and manually reallocate tickets.
-Originator: Edna Everage 
-
-REQ-ID: 003
-Description: The product shall ensure that the ticket being returned is authentic.
-Type: Functional
-Rationale: If the seat associated with an unauthentic ticket is allowed to be reallocated, there will not be enough seats available on the day of the event.
-Originator: Edna Everage
-
-REQ-ID: 004
-Description: The product shall ensure that the ticket being returned is valid.
-Type: Functional
-Rationale: If the seat associated with an invalid ticket (i.e. a ticket that has already been returned) is allowed to be reallocated, there will not be enough seats available on the day of the event.
-Originator: Edna Everage
 
 REQ-ID: 005
 Description: The product shall allow the customer to identify the ticket(s) and number to be returned.
@@ -92,23 +52,11 @@ Description: The product shall allow a ticket return reason to be entered.
 Rational: To allow the organisers to determine any pattern in the ticket return reasons.
 Originator: Edna Everage - Domestic Ticket Sales
 
-REQ-ID: MWC001 
-Description: The product shall ensure that any tickets being returned by a customer were issued to that customer.
-Type: Functional
-Rationale: Only tickets issues to a customer can be returned by that customer.  Tickets returned by persons other than the original customer may have been fraudulently obtained or stolen.
-Originator: Leslie Patterson
-
 REQ-ID: MWC002
 Description: The product shall ensure that any tickets being returned were genuinely issued.
 Type: Functional
 Rationale: Fraud prevention: only legitimate tickets can be returned to inventory.  Duplicate or fake tickets cannot be returned.
 Originator: Leslie Patterson
-
-REQ-ID: PRD_001
-Description: The product shall check that the customer has bought ticket(s)
-Type: Functional
-Rationale: In order to return tickets and get a refund, the customer should already have bought at least one. This also confirms this is a valid customer
-Originator: Edna Everage - Ticket Sales Representative
 
 REQ-ID: PRD_002
 Description: The product shall confirm that the number of tickets requested to be returned is not greater than the number already bought
@@ -116,46 +64,28 @@ Type: Functional
 Rationale: To verify that the customer has not made a mistake entering the number of tickets
 Originator: Edna Everage - Ticket Sales Representative
 
-REQ-ID      : FR_001
-Description : The product shall ensure the tickets are valid i.e They exist and are not past their date of use.
-Type        : Functional
-Rationale   : Anti fraud check to prevent used or bogus tickets getting a refund.
-Originator  : Edna Everage in Brisbane
-
 REQ-ID      : FR_002
 Description : The product shall assign returned tickets to a reallocation queue
 Type        : Functional
 Rationale   : Tickets are stored for up to 24hours so the organisers can check and then reallocate them
 Originator  : Edna Everage in Brisbane
 
-REG-ID : REQ_LA_01
+REQ-ID : REQ_LA_01
 Description : The product shall ensure that the selected tickets being returned are connected to the correctly identified customer. 
 Type: Functional
 Rationale : The customer can only return tickets that they have purchased, this prevents tickets being returned by fraudulent customers.  
 Originator : Leslie Patterson - Business development
 
-REG-ID : REQ_LA_02
+REQ-ID : REQ_LA_02
 Description : The product shall only allow a ticket to be returned for a future event.
 Type: Functional
 Rationale : A customer can only return a ticket for an event that has not already taken place. 
 Originator : Edna Everage - Domestic ticket sales
 
-REQ-ID: REQ-JA-01
-Description: The product shall ensure that the ticket(s) to be returned were originally issued to the identified customer
-Type: Functional
-Rationale: As a protection against black-market exchange and fraudulent return of tickets, this will prevent customers returning tickets they did not originally buy
-Originator: Edna Evridge, via interview
-
 REQ-ID: REQ-JA-02
 Description: The product shall retrieve ticket details, and display them to the user for verification before proceeding with refund
 Type: Functional
 Rationale: To safeguard against users unfairly losing tickets in the event of unintentionally entering incorrect ticket identifiers
-Originator: Leslie Patterson, via interview
-
-REQ-ID: REQ-MW-01
-Description: The product shall provide for returned tickets to be reallocated.
-Type: Functional
-Rationale: A main goal is to have full venues which can only be accomplished if returned tickets are redistributed. 
 Originator: Leslie Patterson, via interview
 
 REQ-ID: REQ-MW-02
@@ -170,30 +100,8 @@ Type: Functional
 Rationale: A: A customer shall only be able to return tickets she actually purchased - fraud prevention
 Originator: Leslie Patterson
 
-REQ-ID: R02
-Description: The product reallocates the tickets as given by the customer into temporary store
-Type: Functional
-Rationale: Once returned by a customer, the tickets shall be reallocated and subsequently again made available to customers
-Originator: Edna Everage
-
-REQ-ID REQ-PB-01
-Description: The product shall ensure that returned ticket(s) are valid
-Type: Functional
-Rationale - To allow invalid tickets to be identified and investigated to identify any fraudulent activity
-Originator - Edna Everage
-
 REQ-ID REQ-PB-02
 Description: The product shall notify the Customer of the outcome of the ticket(s) return
 Type: Functional
 Rationale - To ensure that the Customer knows whether to expect a credit to their Credit Card for the cost of the ticket, or if the Customer is a Sponsor so that they know tickets are being reallocated
 Originator - Edna Everage
-
-REQ-ID: CAS-01
-Description: The product shall refund the customer.
-Rationale: The customer will only return unwanted tickets if reimbursed. The system should be fair to those customers who want to return tickets.
-Originator: Leslie Patterson (teleconference [date]).
-
-REQ-ID: CAS-02
-Description: The product shall allow a returns report to be generated.
-Rationale: Leslie and Edna want to review the reasons for and the pattern of returns on a daily basis in order to detect problems or fraud.
-Originator: Edna Everage (teleconference [date]).
