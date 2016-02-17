@@ -17,6 +17,7 @@ Comments: [jon-ayling] Added 2 functional requirements REQ-JA-01 and REQ-JA-02 (
 Comments: [mwhitfield16] Added 2 functional requirements REQ-MW-01 and REQ-MW-02 (10/02/16)
 Comments: [PRD64] deleted duplicates MWC002, 003, FR_001, REQ_LA_01, REQ-JA-02, REQ-PB-02, REQ-JA-01, 
 R01, REQ-PB-01, 005, HD_FUNC02, FR_002
+Comments: {PRD64] Added CAS-01 and CAS-02 and deleted 006
 
 REQ-ID: RT-FRQ-01 [Booking System (BUC1.2)]
 Description:  The system will determine which tickets are to be de-allocated.
@@ -74,11 +75,6 @@ Rationale: If the seat associated with an invalid ticket (i.e. a ticket that has
 Originator: Edna Everage
 
 
-REQ-ID: 006
-Description: The product shall allow a ticket return reason to be entered.
-Rational: To allow the organisers to determine any pattern in the ticket return reasons.
-Originator: Edna Everage - Domestic Ticket Sales
-
 REQ-ID: MWC001 
 Description: The product shall ensure that any tickets being returned by a customer were issued to that customer.
 Type: Functional
@@ -122,3 +118,13 @@ Description: The product reallocates the tickets as given by the customer into t
 Type: Functional
 Rationale: Once returned by a customer, the tickets shall be reallocated and subsequently again made available to customers
 Originator: Edna Everage
+
+REQ-ID: CAS-01
+Description: The product shall refund the customer.
+Rationale: The customer will only return unwanted tickets if reimbursed. The system should be fair to those customers who want to return tickets.
+Originator: Leslie Patterson (teleconference [date]).
+
+REQ-ID: CAS-02
+Description: The product shall allow a returns report to be generated.
+Rationale: Leslie and Edna want to review the reasons for and the pattern of returns on a daily basis in order to detect problems or fraud.
+Originator: Edna Everage (teleconference [date]).
