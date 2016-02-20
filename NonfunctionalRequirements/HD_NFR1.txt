@@ -1,0 +1,18 @@
+REQ-ID:
+Description:
+Type:
+Rationale:
+Fit Criterion:
+Originator:
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+Comment: [Sam S] This is a Sam testing of adding a comment 11Jan16.
+Comment:[Helen_DA] NFR added to link in with HD_Func02
+REQ-ID: HD_NFR1
+Description: The product shall return tickets from any device used for access
+Type: Maintainability and support
+Rationale: Users no longer access remote systems on PC running the Windows OS; the product should function on mobile and desktop devices running one of: Android, Windows, OSX or Linux
+Fit Criterion: The product must sucessfully return multiple numbers of tickets as required by the customer using one of the following devices:iPhone5, iPhone4, Samsung Galaxy S3, Samsung Galaxy S4, iPad, Samsung Galaxy Tab, Surface, Windows 7 desktop, Windows 10 desktop, Mac, Debian
+Originator: Helen
+Comment: [Helen_DA] NFR to cater for multiple device types
+
+
