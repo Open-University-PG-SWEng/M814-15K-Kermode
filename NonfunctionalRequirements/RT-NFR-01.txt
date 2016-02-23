@@ -1,0 +1,16 @@
+REQ-ID:
+Description:
+Type:
+Rationale:
+Fit Criterion:
+Originator:
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+Comment: [Sam S] This is a Sam testing of adding a comment 11Jan16.
+Comment: [Amelja] Added NFR RT-NFR-01 based on FR RT-FRQ-02 (22/02/16)
+REQ-ID: RT-NFR-01
+Description: The system will continue to perform in responsive manner for customers buying tickets when a large amount of returns are also taking place.
+ Type: Performance
+Rationale: Over 5 million tickets will be sold as part of the Commonwealth Games.  In order to encourage customers to buy tickets the system needs to be responsive, even when a large number of returns may be taking place.  This will encourage continued use of the system as customers will not be frustrated by slow performance.
+Fit Criterion: The system must be able to process 5,000 ticket returns over a 10 minute period, whilst allowing 10,000 purchases to take place in that same period.  
+Originator: Leslie Patterson
+Comment: [Amelja] NFR to enable for performance to maintained when a high volume of returns are taking place.
