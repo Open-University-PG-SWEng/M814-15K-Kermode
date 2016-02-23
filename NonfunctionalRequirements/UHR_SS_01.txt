@@ -1,0 +1,15 @@
+REQ-ID:
+Description:
+Type:
+Rationale:
+Fit Criterion:
+Originator:
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+
+Comment: [Sam S] Adding my non functional requirment
+REQ-ID: UHR_SS_01
+Description: the product shall be usable by spectators where their first language is not English.
+Type: 11b (Usability and Humanity Requirement, Personalization and Internationalization)
+Rational: The event is a global event.  The spectators are from different countries, speaking different language.  
+Fit Criterion: 70% of people whose first language is not English, and do not need assistance when using a system in their first language 90% of the time, can use the product to purchase a ticket without assistant.
+Originator:Leslie Patterson mentions Commonwealth countries will want tickets. 
