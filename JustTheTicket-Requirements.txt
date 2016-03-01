@@ -15,6 +15,8 @@ Comments: [Prd64] Added two functional requirements REQ_01 and REQ_02 (7/2/16)
 Comments: [LucyArch] Added 2 functional requirements REQ_LA_01 and REQ_LA_01 (07/02/16)
 Comments: [jon-ayling] Added 2 functional requirements REQ-JA-01 and REQ-JA-02 (09/02/16)
 Comments: [mwhitfield16] Added 2 functional requirements REQ-MW-01 and REQ-MW-02 (10/02/16)
+Comments: [Helen_DA] Removed following requirements RT-FRQ-01, 005, HD_Func01, 02, BUC_RT02, REQ-MW-01, R02, REQ-JA-01, 003, 004, FR_001, MWC001, PRD_001, REQ-PB-01 and R01
+
 
 REQ-ID: RT-FRQ-02 [Booking System (BUC1.2)]
 Description: The system will remove the allocations for specified tickets.
@@ -22,6 +24,8 @@ Type: Functional
 Rationale: This will prevent the customer from re-using the same tickets after a refund, and make them available for allocation to other customers.
 Originator: Leslie Patterson
 
+Comments: [Sam S] Sam Stonehouse adding two functional requirments [BUC_RT01] and [BUC_RT02] 20_Jan_16
+Comments: [Sam S] Sam Stonehouse first requirement
 REQ-ID: BUC_RT01
 Description: The product shall accept a valid customer identifier.
 Type: functional
@@ -33,7 +37,7 @@ Description: The system shall allow the customer to select the number of tickets
 Type: Functional
 Rationale: The customer may only need to return some of the tickets allocated to them.
 Originator: Leslie Patterson
-Comments [Helen_DA] Added Functional requirement 2
+Comments: [Helen_DA] Added Functional requirement 2
 
 REQ-ID: 001
 Description: The product shall accept one or more tickets for return
@@ -45,12 +49,6 @@ REQ-ID: 006
 Description: The product shall allow a ticket return reason to be entered.
 Rational: To allow the organisers to determine any pattern in the ticket return reasons.
 Originator: Edna Everage - Domestic Ticket Sales
-
-REQ-ID: MWC001 
-Description: The product shall ensure that any tickets being returned by a customer were issued to that customer.
-Type: Functional
-Rationale: Only tickets issues to a customer can be returned by that customer.  Tickets returned by persons other than the original customer may have been fraudulently obtained or stolen.
-Originator: Leslie Patterson
 
 REQ-ID: MWC002
 Description: The product shall ensure that any tickets being returned were genuinely issued.
@@ -69,6 +67,12 @@ Description : The product shall assign returned tickets to a reallocation queue
 Type        : Functional
 Rationale   : Tickets are stored for up to 24hours so the organisers can check and then reallocate them
 Originator  : Edna Everage in Brisbane
+
+REG-ID: REQ_LA_01
+Description: The product shall ensure that the selected tickets being returned are connected to the correctly identified customer. 
+Type: Functional
+Rationale : The customer can only return tickets that they have purchased, this prevents tickets being returned by fraudulent customers.  
+Originator : Leslie Patterson - Business development
 
 REG-ID : REQ_LA_02
 Description : The product shall only allow a ticket to be returned for a future event.
@@ -91,5 +95,20 @@ Originator: Tacit from comments by Leslie Patterson, via interview
 REQ-ID REQ-PB-02
 Description: The product shall notify the Customer of the outcome of the ticket(s) return
 Type: Functional
+<<<<<<< HEAD
 Rationale - To ensure that the Customer knows whether to expect a credit to their Credit Card for the cost of the ticket, or if the Customer is a Sponsor so that they know tickets are being reallocated
 Originator - Edna Everage
+
+REQ-ID: CAS-01
+Description: The product shall refund the customer.
+Rationale: The customer will only return unwanted tickets if reimbursed. The system should be fair to those customers who want to return tickets.
+Originator: Leslie Patterson (teleconference [date]).
+
+REQ-ID: CAS-02
+Description: The product shall allow a returns report to be generated.
+Rationale: Leslie and Edna want to review the reasons for and the pattern of returns on a daily basis in order to detect problems or fraud.
+Originator: Edna Everage (teleconference [date]).
+=======
+Rationale: To ensure that the Customer knows whether to expect a credit to their Credit Card for the cost of the ticket, or if the Customer is a Sponsor so that they know tickets are being reallocated
+Originator: Edna Everage
+>>>>>>> HelenTMA02
