@@ -1,0 +1,6 @@
+REQ-ID:MM-NFR-01
+Description: The product shall only allow a ticket to be returned for a future event
+Type: Performance
+Rationale: A customer can only return a ticket for an event that has not already taken place.
+Fit Criterion: The date % time a ticket is returned must lie at least 48 hours before the sporting event takes place.
+Originator: Markus Meyerhofer
