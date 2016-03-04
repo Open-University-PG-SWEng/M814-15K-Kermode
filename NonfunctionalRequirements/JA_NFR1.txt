@@ -1,0 +1,8 @@
+REQ-ID: JA_NFR1
+Description: The product shall only display details of previously purchased tickets to authorized users
+Type: Security
+Rationale: To maintain privacy of previously entered information, such as event attendance, seat allocation, or special requirements, this information should only be displayed to the originating user (individual or organistation) determined by authentication.
+Fit Criterion: The system will not make any details of tickets previously purchased available to any user that did not purchase them. This will be ensured by product security of specification meeting or exceeding the ISO/IEC 27001:2013 standard.
+Originator: Jon Ayling
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+Comments: [JA] Added security requirement JA_NFR1 applying to functional requirement REQ-JA-02
