@@ -4,3 +4,4 @@ Type: Performance
 Rationale: A customer can only return a ticket for an event that has not already taken place.
 Fit Criterion: The date % time a ticket is returned must lie at least 48 hours before the sporting event takes place.
 Originator: Markus Meyerhofer
+Comment: [Markus M] NFR based on REQ_LA_02 added
