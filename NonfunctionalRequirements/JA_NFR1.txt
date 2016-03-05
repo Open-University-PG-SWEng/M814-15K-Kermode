@@ -13,4 +13,3 @@ Comment: {PRD] Adding suggested change request to fit criterion: I think it coul
 Comment: [HD] Given the rationale relates to privacy it may be worth considering including compliance with Australian Data protection regulations within the fit criterion. Privacy Act 1988 and Privacy Amendment (Private Sector) Act 2000 (C'th) are the likely applicable legislation.
  
 
-Comment: {PRD] Adding suggested change request to fit criterion: I think it could be mentioned that end to end encyption shall be applied (SSH for example) and mention an encryption standard.
