@@ -7,5 +7,3 @@ Fit Criterion: 95% of customers who request to return tickets during the transac
 Originator: Edna Everidge
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 Comment: [PRD] Added PRD_NFR_001
-
-

@@ -14,5 +14,4 @@ Rationale: Users no longer access remote systems on PC running the Windows OS; t
 Fit Criterion: The product must sucessfully return multiple numbers of tickets as required by the customer using one of the following devices:iPhone5, iPhone4, Samsung Galaxy S3, Samsung Galaxy S4, iPad, Samsung Galaxy Tab, Surface, Windows 7 desktop, Windows 10 desktop, Mac, Debian
 Originator: Helen
 Comment: [Helen_DA] NFR to cater for multiple device types
-
-
+Comment: [Sam] Adding suggested change request to fit criterion: The list of devices is precise; there is no indication of future devices or operating systems and browsers.

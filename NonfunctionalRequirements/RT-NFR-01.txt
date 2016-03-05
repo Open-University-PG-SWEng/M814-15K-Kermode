@@ -15,3 +15,4 @@ Fit Criterion: The system must be able to process 5,000 ticket returns over a 10
 Originator: Leslie Patterson
 Comment: [RT] NFR to enable for performance to maintained when a high volume of returns are taking place.
 Comment: [RT] Changed [Amelja] to [RT] as per module chair comment.
+Comment: [Sam] Adding suggested change request to fit criterion: good.  However, when is this ‘period’ taking place?  Network and Data traffic can be different at different times of the day.  Could the product do what you suggest at 'peak' times (not forgetting to mention when is the peak time).

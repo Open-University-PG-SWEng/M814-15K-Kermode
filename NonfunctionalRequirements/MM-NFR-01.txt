@@ -5,3 +5,4 @@ Rationale: The process of returning tickets will take some time to complete, whi
 Fit Criterion: 95 % of users unfamiliar with the system and/or computers shall be able to complete the return process within 60 seconds
 Originator: Markus Meyerhofer
 Comment: [Markus M] NFR based on REQ_LA_02 added
+Comment: [Sam] Adding suggested change request to fit criterion: Good. However, I want to know: what does unfamiliar mean? What makes a user unfamiliar? If I have seen the system for 10 seconds, does that make me familiar?
