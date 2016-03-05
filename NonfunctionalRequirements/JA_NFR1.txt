@@ -7,3 +7,4 @@ Originator: Jon Ayling
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 Comments: [JA] Added security requirement JA_NFR1 applying to functional requirement REQ-JA-02
 Comment: [RT] Adding suggested change request to fit criterion: This is good, however it may be useful to specify exactly which part(s) of the ISO standard relate to this requirement.  The ISO standard itself is very broad and detailed, therefore it may be hard for those unfamiliar with all of it to correctly ascertain if the requirement has been met or not.
+Comment: {PRD] Adding suggested change request to fit criterion: I think it could be mentioned that end to end encyption shall be applied (SSH for example) and mention an encryption standard.
