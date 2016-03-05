@@ -1,7 +1,7 @@
 REQ-ID:MM-NFR-01
 Description: The product shall only allow a ticket to be returned for a future event
 Type: Usability and Humanity
-Rationale: The process of returning tickets will take some time to complete, which is why events lying in the future at the beginning of the return process lie in the past (or beyond sales closing time) at the process. The ensuing error message causes inconvenience for the customer and potentially bad reputation for the operator
-Fit Criterion: 95 % of users unfamiliar with the system shall be able to complete the return process within 60 seconds
+Rationale: The process of returning tickets will take some time to complete, which is why events lying in the future at the beginning of the return process might lie in the past (or beyond sales closing time) at the end of the process. The ensuing error message causes at least inconvenience for the customer and potentially bad reputation for the operator
+Fit Criterion: 95 % of users unfamiliar with the system and/or computers shall be able to complete the return process within 60 seconds
 Originator: Markus Meyerhofer
 Comment: [Markus M] NFR based on REQ_LA_02 added
