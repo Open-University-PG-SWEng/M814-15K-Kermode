@@ -6,3 +6,4 @@ Fit Criterion : The system limits access and is consistent with standard C(2006)
 Originator    : Ashley Glenister
 Comments      : [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 Comments      : [AG] Added NFR associated with FR_002
+Comments      : [HD] While it is a good idea  the standard quoted is not appropriate to the product as it only applies to European Comission information systems; the product is under Australian juristriction. It may be better to reference ISO27001 which has as control objectives a requirement to have an access control policy.

@@ -13,3 +13,4 @@ Type: 11b (Usability and Humanity Requirement, Personalization and International
 Rational: The event is a global event.  The spectators are from different countries, speaking different language.  
 Fit Criterion: 70% of people whose first language is not English, and do not need assistance when using a system in their first language 90% of the time, can use the product to purchase a ticket without assistant.
 Originator:Leslie Patterson mentions Commonwealth countries will want tickets. 
+Comments: [HD] The fit criterion as written is confusing.  I believe you are trying to convey that no assiatance is required 90% of the time when using the system in the native language for 70% of users.
