@@ -2,6 +2,6 @@ REQ-ID:MM-NFR-01
 Description: The product shall only allow a ticket to be returned for a future event
 Type: Performance (Accuracy)
 Rationale: Customers from around the world may use the system, therefore an accurate, error-free calculation of time, in particular handling of time zone differences, is crucial. Additionally, a certain amount of latency in using the system will occur for technical reasons.
-Fit Criterion: The date & time a ticket is returned must lie at least 2 seconds before the sales closing date & time.
+Fit Criterion: The date & time (in UTC) a ticket is returned must lie at least 2 seconds before the sales closing date & time (in UTC).
 Originator: Markus Meyerhofer
 Comment: [Markus M] NFR based on REQ_LA_02 added
