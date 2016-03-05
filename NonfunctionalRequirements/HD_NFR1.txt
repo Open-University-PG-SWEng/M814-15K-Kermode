@@ -15,3 +15,5 @@ Fit Criterion: The product must sucessfully return multiple numbers of tickets a
 Originator: Helen
 Comment: [Helen_DA] NFR to cater for multiple device types
 Comment: [Sam] Adding suggested change request to fit criterion: The list of devices is precise; there is no indication of future devices or operating systems and browsers.
+Comment: [RT] Adding suggested change request to fit criterion: The requirement of ‘any device’ is very broad, and therefore the FIT criteria needs to be equally so.  The devices listed provide a sub-set of the available platforms from which users could access the system, and as already identified makes no provision for future changes.  Perhaps a better criterion would be to say that the system will operate with devices that are compliant with W3C Standards or similar.  This would then provide a standard against which FR development activities could be aligned.
+
