@@ -1,0 +1,7 @@
+REQ-ID: LA_NFR
+Description: The product will record a history of previous customers assigned to a ticket. 
+Type: Security
+Rationale: This is for traceability and auditing purposes. For example, in the case of a dispute about a returned ticket, an administrator can see which customer the ticket was previously assigned to. 
+Fit Criterion: An unsold ticket will 0 customer IDs in its history. A sold ticket and a returned ticket will have at least 1 customer ID’s in its history. A reallocated ticket will have at least 2 customer IDs in its history. 
+Originator: Leslie
+Comments: [LA] Added non functional requirement associated with the functional requirement REQ_LA_01. 

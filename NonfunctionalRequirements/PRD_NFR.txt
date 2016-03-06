@@ -1,0 +1,10 @@
+REQ-ID: PRD_NFR_001
+Description: The product shall ensure that tickets are not returned for the wrong event
+Type: Usability and humanity (10)
+Rationale: Customers could have tickets for more than one event, and could inadvertently cancel some tickets for the wrong one.
+This needs to be avoided to avoid possible administrative costs.
+Fit Criterion: 95% of customers who request to return tickets during the transaction do not attempt to cancel the request after the transaction.
+Originator: Edna Everidge
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+Comment: [PRD] Added PRD_NFR_001
+Comment: [DW] Added review response: Tracking the number of cancelled ticket returns seems appropriate. However, the return could be cancelled for reasons other than an incorrectly entered ticket (maybe the user lost track of time and had to rush out?). It would therefore be helpful to also capture and track the reason for the cancelled return.
