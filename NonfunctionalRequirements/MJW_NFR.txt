@@ -1,0 +1,9 @@
+REQ-ID: REQ-MW-02
+Description: The product shall accommodate the resale value of the returned tickets.
+Type: Performance
+Rationale: The customer needs to be returned some amount of money for their tickets and while an external system will likely issue the return, the product needs to relate the resale value to the customer.
+Fit Criterion: Once a customer has selected which tickets they wish to return, the resale value of tickets shall be determined and related to the customer within 10 seconds.
+Originator: Tacit from comments by Leslie Patterson, via interview (added by Matt Whitfield)
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+
+
