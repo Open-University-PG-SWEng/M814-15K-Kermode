@@ -6,3 +6,4 @@ Fit Criterion: On average no more than 9 tickets per 10,000 sold will require th
 Originator: Mark Wild
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [MW] Inserted the NFR text
+[DW] Added review response: Using a failure rate as the fit criterion seems appropriate. However it may be more helpful to specify "x tickets out of y tickets RETURNED", rather than "x tickets out of y tickets SOLD".
