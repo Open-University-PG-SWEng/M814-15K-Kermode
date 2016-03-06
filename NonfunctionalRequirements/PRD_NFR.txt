@@ -7,3 +7,4 @@ Fit Criterion: 95% of customers who request to return tickets during the transac
 Originator: Edna Everidge
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 Comment: [PRD] Added PRD_NFR_001
+Comment: [DW] Added review response: Tracking the number of cancelled ticket returns seems appropriate. However, the return could be cancelled for reasons other than an incorrectly entered ticket (maybe the user lost track of time and had to rush out?). It would therefore be helpful to also capture and track the reason for the cancelled return.
