@@ -1,0 +1,7 @@
+REQ-ID: DW_NFR1
+Description: It shall be easy for a customer to return a ticket. 
+Type: 10
+Rationale: Customer satisfaction is a top priority. By providing a simple and pleasurable ticket return process, the customer will be more likely to return and buy tickets for a different event.
+Fit Criterion: Customer surveys following a ticket return give an average satisfaction rating of 90 percent or greater.
+Originator: Edna Everage
+Comment: [DW] Added DW_NFR1 which is related to functional requirement REQ_LA_02.
