@@ -1,0 +1,15 @@
+REQ-ID:
+Description:
+Type:
+Rationale:
+Fit Criterion:
+Originator:
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+Comment: [Pat B] NFR added to link with REQ-PB-02 as part of TMA03 Q2b
+REQ-ID: NFR-REQ-PB-02
+Description: The product shall be able to issue the Customer Confirmation of their ticket(s) return at any time
+Type: NFR-Operational
+Rationale: So that the Customer does not have to wait an excessive amount of time for their return(s) confirmation
+Fit Criterion: A Confirmation of Ticket(s) returns shall be issued immediately following receipt of Refund Status from the Payment System which may also occur at any time of day/day of year
+Originator: Patrick Burns
+
