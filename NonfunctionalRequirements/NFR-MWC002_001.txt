@@ -1,6 +1,6 @@
 REQ-ID: NFR-MWC002_001
 Description: The product shall compare relevant details of tickets being returned with the same details of tickets already issued.
-Type: Non-functional.
+Type: Non-functional type 15 (security/auditing).
 Rationale: To ensure the ticket being returned has been genuinely issued.
 Fit Criterion: The customer must be able to confirm independently which tickets are being returned, rather than being presented with a list of booked tickets, to avoid fraudulent activity using customers’ details.
 Originator: Leslie Patterson.
