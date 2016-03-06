@@ -5,5 +5,4 @@ Rationale: The customer needs to be returned some amount of money for their tick
 Fit Criterion: Once a customer has selected which tickets they wish to return, the resale value of tickets shall be determined and related to the customer within 10 seconds.
 Originator: Tacit from comments by Leslie Patterson, via interview (added by Matt Whitfield)
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
-
-
+Comment: [LA] Adding suggested improvements to fit criterion. This requirement is slightly confusing. The requirement description discusses accommodating the resale value of the ticket whereas the fit criterion discusses the time in which the resale value will be displayed to the customer. The type of the requirement is performance which is what the fit criteria is discussing but the description does not mention the display of the resale value. 
