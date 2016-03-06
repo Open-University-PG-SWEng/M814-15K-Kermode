@@ -5,6 +5,10 @@ Rationale: The customer needs to be returned some amount of money for their tick
 Fit Criterion: Once a customer has selected which tickets they wish to return, the resale value of tickets shall be determined and related to the customer within 10 seconds.
 Originator: Tacit from comments by Leslie Patterson, via interview (added by Matt Whitfield)
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+<<<<<<< HEAD
 Comment: [JA] While it's tempting to say that faster performance is always beneficial at every stage, there are often steps which are much more performance critical to user experience than others, and I'm not 100% that this is one of them. Would it be likely that users would be more concerned about performance when paying for and selecting tickets (or obtaining the refund itself) - especially given that ticket return is (hopefully) a less common activity? Practically, responsibility for meeting the fit criterion is likely to be somewhat split (as retrieving the resale value will likely require interface with the external ticket database). Might usability (for example: making it very clear how much the user will be refunded, if there is any tax or admin fees etc that need to be deducted) have greater utility here?
 
 
+=======
+Comment: [LA] Adding suggested improvements to fit criterion. This requirement is slightly confusing. The requirement description discusses accommodating the resale value of the ticket whereas the fit criterion discusses the time in which the resale value will be displayed to the customer. The type of the requirement is performance which is what the fit criteria is discussing but the description does not mention the display of the resale value. 
+>>>>>>> 3a0f31332da3439ec320b2a96b45f56cfa7aa947
