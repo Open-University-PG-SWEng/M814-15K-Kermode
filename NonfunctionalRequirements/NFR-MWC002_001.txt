@@ -5,6 +5,6 @@ Rationale: To ensure the ticket being returned has been genuinely issued.
 Fit Criterion: The customer must be able to confirm independently which tickets are being returned, rather than being presented with a list of booked tickets, to avoid fraudulent activity using customers’ details.
 Originator: Leslie Patterson.
 Comments: [MWC] Adding non-functional requirement for MWC002.
-
+Comment: [LA] Adding suggested improvements to fit criterion. The fit criterion does not clearly describe how the requirement can be tested. I would suggest that the fit criterion clearly identifies the details of the tickets being compared. For example, ticket identifier of the selected ticket being returned must be equal to the ticket identifier of the ticket purchased. 
 
 
