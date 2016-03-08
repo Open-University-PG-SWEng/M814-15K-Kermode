@@ -7,3 +7,4 @@ Originator: Mark Wild
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [MW] Inserted the NFR text
 [DW] Added review response: Using a failure rate as the fit criterion seems appropriate. However it may be more helpful to specify "x tickets out of y tickets RETURNED", rather than "x tickets out of y tickets SOLD".
+[JK] Added review response: Should the fit criterion be expand to test what happens during an interrupted return of tickets.  For example 'If the return process is interrupted the tickets shall still be assigned to the customer in 100% of cases'
