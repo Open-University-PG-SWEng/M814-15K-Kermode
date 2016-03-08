@@ -16,3 +16,4 @@ Originator: Leslie Patterson
 Comment: [RT] NFR to enable for performance to maintained when a high volume of returns are taking place.
 Comment: [RT] Changed [Amelja] to [RT] as per module chair comment.
 Comment: [Sam] Adding suggested change request to fit criterion: good.  However, when is this ‘period’ taking place?  Network and Data traffic can be different at different times of the day.  Could the product do what you suggest at 'peak' times (not forgetting to mention when is the peak time).
+Comment: [MJW] I think that this is ok, but even though we do not have too many specifics, I would doubt that demand for returns would ever be as high as half of the demand for purchases.
