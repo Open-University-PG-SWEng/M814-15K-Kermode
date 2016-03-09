@@ -8,3 +8,4 @@ Originator: Edna Everidge
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 Comment: [PRD] Added PRD_NFR_001
 Comment: [DW] Added review response: Tracking the number of cancelled ticket returns seems appropriate. However, the return could be cancelled for reasons other than an incorrectly entered ticket (maybe the user lost track of time and had to rush out?). It would therefore be helpful to also capture and track the reason for the cancelled return.
+Comment: [AG] It is unclear to me how the designer of the product can do anything to meet the fit criterion, because the customers reasons for wanting to un-cancel the tickets are likely personal (i.e a mistake, or change of heart) and not due to the design of the system.

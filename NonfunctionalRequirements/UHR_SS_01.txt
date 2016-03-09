@@ -15,3 +15,4 @@ Fit Criterion: 70% of people whose first language is not English, and do not nee
 Originator:Leslie Patterson mentions Commonwealth countries will want tickets. 
 Comments: [HD] The fit criterion as written is confusing.  I believe you are trying to convey that no assiatance is required 90% of the time when using the system in the native language for 70% of users.
 Comment: [MWC] More of a question really - I would assume that the development team would localise the application accoding to the location of the user, so the language issue is more of a solution than a requirement?
+Comment: [AG] The fit criterion is not easy to read. Suggest something like "Less than 10% of the users of the non-English versions of the site ask for assistance".
