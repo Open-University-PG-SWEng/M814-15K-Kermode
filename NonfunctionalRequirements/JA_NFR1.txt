@@ -11,5 +11,18 @@ Comment: [RT] Adding suggested change request to fit criterion: This is good, ho
 
 Comment: {PRD] Adding suggested change request to fit criterion: I think it could be mentioned that end to end encyption shall be applied (SSH for example) and mention an encryption standard.
 Comment: [HD] Given the rationale relates to privacy it may be worth considering including compliance with Australian Data protection regulations within the fit criterion. Privacy Act 1988 and Privacy Amendment (Private Sector) Act 2000 (C'th) are the likely applicable legislation.
- 
+
+Comment: [Pat Burns] Probably along similar lines to what’s been said before, but I couldn’t figure out how I would test this requirement and where within the security standards doc referenced, that I’d need to look to clarify this. Looking at the statement “this information should be displayed only to the originating user…..determined by authentication” and the FIT criterion “The system will not make any details of tickets previously purchased available to any user that did not purchase them”, made me make the following assumptions:-
+(1)	A user/organisation has previously logged onto the site using their own unique username and password and purchased ticket(s)
+(2)	To test the NFR, I’m assuming the user would log in using the same username and password (or subsequent)
+(3)	Once they get access, they would list previously purchased ticket(s) somehow
+(4)	This list would only show any tickets purchased during previous logons under that username and password (or subsequent password)
+
+Number (4) above confirming the test. I’m assuming this from the way the requirement is worded and will post a message on the forum for clarification, but perhaps this stated wording could be made clearer eg:-
+
+Only ticket(s) purchase information relating to previous purchases made using the same (or subsequent) login credentials will be displayed.
+
+This wording then also covers the instance where the use case involves an individual or organisation, bearing in mind that if it’s an organisation, then the user might be different but they will have used the same login credentials.
+I’ve put “subsequent” in because the credentials might not remain the same eg. the user forgets their password and therefore has to change it.
+
 
