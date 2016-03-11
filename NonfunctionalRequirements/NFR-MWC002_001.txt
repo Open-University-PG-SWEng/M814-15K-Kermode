@@ -8,3 +8,15 @@ Comments: [MWC] Adding non-functional requirement for MWC002.
 Comment: [LA] Adding suggested improvements to fit criterion. The fit criterion does not clearly describe how the requirement can be tested. I would suggest that the fit criterion clearly identifies the details of the tickets being compared. For example, ticket identifier of the selected ticket being returned must be equal to the ticket identifier of the ticket purchased. 
 Comment: [MJW] It is not clear what independently confirm means or what it entails, but the ticket identifier that LA mentioned may be it?. Also it seems that "to avoid fraudulent activity using customers’ details" is more rationale than fit criterion.
 Comment: [MM] I am not sure why presenting a list of booked tickets should be avoided. It seems presenting all eligible tickets the customer purchased an meet all criteria for return seems sensible. Also, there is no measurement in terms of comparable numbers. 
+*************
+** UPDATED **
+*************
+REQ-ID: NFR-MWC002_001
+Description: The product shall compare relevant details of tickets being returned with the same details of tickets already issued.
+Type: Non-functional type 15 (security/auditing).
+Rationale: To provide input validation to ensure the ticket being returned has been genuinely issued to the customer returning the tickets.
+Fit Criterion: The customer must identify dates and events for which tickets are being returned, and provide a unique serial number or reference allocated to the tickets.
+The product must compare the details entered by the customer with those held by the product.  Only tickets where the information entered by the customer match exactly the information held by the product will be able to be returned. 
+The product must allow for incorrect selections or accidental mistyping of unique serial number or reference by limiting a customer to only three attempts to enter the correct information.  The product must reject all further attempts to return the tickets and notify Games management of the rejection within one second of the third failed attempt.
+Originator: Leslie Patterson.
+Comments: [MWC] Revised non-functional requirements following comments received.  Hopefully now the rationale is more tightly constrained and the fit criteria expanded to provide performance measurements.
