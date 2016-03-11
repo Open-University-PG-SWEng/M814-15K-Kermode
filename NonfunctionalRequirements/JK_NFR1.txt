@@ -2,11 +2,12 @@ REQ-ID: JK_NFR1
 Description: The product shall be easy for the customer to supply a ticket return reason
 Type: Ease of use requirement
 Rationale: To obtain the correct return reason for returned tickets the process needs to be easy for the customer to use
-Fit Criterion: 95% of customers shall be able to supply a return reason within 5 seconds and a 100% of customers within 
-               10 seconds
+Fit Criterion: 85% of customers shall be able to supply a return reason within 5 seconds and a 95% of customers within 
+               30 seconds
 Originator: Edna Everage - Domestic Ticket Sales
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 Comment: [JK] Added non-functional requirement JK-NFR1 ease of use requirement for funtional requirement 006
 Comment: [RT] Adding suggested change request to fit criterion: This is well structured, however the FIT criteria does not make it clear if the reason would be pre-defined or not.  If not, then 5/10 second windows may be difficult for users with poor keyboard skills or other accessibility issues.
 Comment: [DW] Adding review response: Fit criterion appears to be complete and appropriate. In response to the previous review comment: I believe that this fit criterion will drive the design solution. To meet these constraints the designers will probably choose to implement a pre-defined list, but it is up to the designers how they choose to meet the requirement.
 Comment: [MWC] I tend to agree with RT: the fit criterion should include a defined list or "other" and should be worded so that the customer does not have any ambiguous choices – where some choices may have different connotations in different languages and a good proportion of Commonwealth countries do not have English as a first language (and a good proportion of AU residents are from SE Asia). 
+Comment: [JK] Amended requirement to reduce the precentage of customers who supply a return reason within 5 seconds to 85% and now state that 95% of customers within 30 seconds
