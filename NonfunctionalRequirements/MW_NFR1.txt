@@ -1,5 +1,5 @@
-REQ-ID: MW_NFR1
-Description: The product shall ensure a ticket can still be used by the customer if the return process is not completed for any reason.
+﻿REQ-ID: MW_NFR1
+Description: The product shall not generate excessive customer complaints if the return process is not completed for any reason.
 Type: 12e
 Rationale: Technical failures or customers choosing not to continue can interrupt a return of ticket(s) at any time. Customer complaints requiring manual reconciliation of payment and ticket(s) generates additional staff costs and potentially creates an unmanageable backlog.
 Fit Criterion: On average no more than 9 tickets per 10,000 sold will require the ticket return to be completed manually.
