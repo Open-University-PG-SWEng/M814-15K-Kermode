@@ -1,11 +1,11 @@
 REQ-ID: JA_NFR1
-Description: The product shall only display details of previously purchased tickets to authorized users
+Description: When reviewing ticket details during the ticket refund process, the product shall only display details of previously purchased tickets to authorized users
 Type: Security
 Rationale: To maintain privacy of previously entered information, such as event attendance, seat allocation, or special requirements, this information should only be displayed to the originating user (individual or organistation) determined by authentication.
-Fit Criterion: The system will not make any details of tickets previously purchased available to any user that did not purchase them. This will be ensured by product security of specification meeting or exceeding the ISO/IEC 27001:2013 standard.
+Fit Criterion: The system will not make any details of tickets previously purchased available to any user that did not purchase them, in conformance with the Privacy Amendment (Private Sector) Act 2000 (C'th). Secure authentication shall be ensured by product security of specification meeting or exceeding the ISO/IEC 27001:2013 standard, Annex A10-A13 (cryptography, physical, operational and communication security).
 Originator: Jon Ayling
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
-Comments: [JA] Added security requirement JA_NFR1 applying to functional requirement REQ-JA-02
+Comment: [JA] Added security requirement JA_NFR1 applying to functional requirement REQ-JA-02
 Comment: [RT] Adding suggested change request to fit criterion: This is good, however it may be useful to specify exactly which part(s) of the ISO standard relate to this requirement.  The ISO standard itself is very broad and detailed, therefore it may be hard for those unfamiliar with all of it to correctly ascertain if the requirement has been met or not.
 
 
@@ -25,4 +25,5 @@ Only ticket(s) purchase information relating to previous purchases made using th
 This wording then also covers the instance where the use case involves an individual or organisation, bearing in mind that if it’s an organisation, then the user might be different but they will have used the same login credentials.
 I’ve put “subsequent” in because the credentials might not remain the same eg. the user forgets their password and therefore has to change it.
 
+Comment: [JA] Updated security requirement JA_NFR1 following review comments
 
