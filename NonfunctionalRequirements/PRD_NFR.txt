@@ -3,9 +3,14 @@ Description: The product shall ensure that tickets are not returned for the wron
 Type: Usability and humanity (10)
 Rationale: Customers could have tickets for more than one event, and could inadvertently cancel some tickets for the wrong one.
 This needs to be avoided to avoid possible administrative costs.
-Fit Criterion: 95% of customers who request to return tickets during the transaction do not attempt to cancel the request after the transaction.
+Fit Criterion: 95% of customers who request to return tickets during the transaction do not attempt to cancel the request after the transaction because of a mistake over which event they wanted to cancel
 Originator: Edna Everidge
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 Comment: [PRD] Added PRD_NFR_001
 Comment: [DW] Added review response: Tracking the number of cancelled ticket returns seems appropriate. However, the return could be cancelled for reasons other than an incorrectly entered ticket (maybe the user lost track of time and had to rush out?). It would therefore be helpful to also capture and track the reason for the cancelled return.
 Comment: [AG] It is unclear to me how the designer of the product can do anything to meet the fit criterion, because the customers reasons for wanting to un-cancel the tickets are likely personal (i.e a mistake, or change of heart) and not due to the design of the system.
+Comment: [PRD] I've now made it clear in the fit criterion that the reason for cancellation is due to a mistake over the event. The user interface needs to be good so that ANY mistakes are not made so easily.
+               This requirement might help reduce mistakes for other reasons other than that stated, but that's a good thing.
+
+
+               
