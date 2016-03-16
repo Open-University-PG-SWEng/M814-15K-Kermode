@@ -1,0 +1,8 @@
+REQ-ID: NFR-AW-001 
+Description: The experience of refunding tickets should have an interface that is easy to use
+Type: Non Functional – User experience
+Rationale: Ticketing sites and ticket touts and auction sites will provide alternative ways of selling tickets and in some cases at a profit over the redeemable price, so within JustTheTicket the refunds functionality must engage the ticket-holder and move them quickly and attractively through the refund process with the minimum of hassle.
+Fit Criterion: When ticket-holders load the refund area of the JustTheTicket application they experience fast page loads and work their way through the refund process in under minutes with less than 2% exiting the process before completion.
+Originator: Alan Warr
+Comments: The fit criterion would benefit from discussing what would be attractive to ticket-holders through workshops or focus groups. 
+
