@@ -1,0 +1,20 @@
+REQ-ID:
+Description:
+Type:
+Rationale:
+Fit Criterion:
+Originator:
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+Comment: [Sam S] This is a Sam testing of adding a comment 11Jan16.
+Comment: [RT] Added NFR RT-NFR-01 based on FR RT-FRQ-02 (24/02/16)
+REQ-ID: RT-NFR-01
+Description: The system will continue to perform in responsive manner for customers buying tickets when a large amount of returns are also taking place.
+ Type: Performance
+Rationale: Over 5 million tickets will be sold as part of the Commonwealth Games.  In order to encourage customers to buy tickets the system needs to be responsive, even when a large number of returns may be taking place.  This will encourage continued use of the system as customers will not be frustrated by slow performance.
+Fit Criterion: The system must be able to process 5,000 ticket returns over a 10 minute period, whilst allowing 10,000 purchases to take place in that same period.  This performance must be achievable at any given point in time, especially under conditions of ‘peak load’ as defined by the event organisers.
+Originator: Leslie Patterson
+Comment: [RT] NFR to enable for performance to maintained when a high volume of returns are taking place.
+Comment: [RT] Changed [Amelja] to [RT] as per module chair comment.
+Comment: [Sam] Adding suggested change request to fit criterion: good.  However, when is this ‘period’ taking place?  Network and Data traffic can be different at different times of the day.  Could the product do what you suggest at 'peak' times (not forgetting to mention when is the peak time).
+Comment: [MJW] I think that this is ok, but even though we do not have too many specifics, I would doubt that demand for returns would ever be as high as half of the demand for purchases.
+Comment: [RT] Amended NFR to take into account Sam’s suggestion relating to system performance based on peak usage times.  As the system is likely to evolve in the future, it is realistic that the ‘peak’ metric will change as a result and therefore should be driven by the specific event-organisers.  Whilst MJW’s comment is valid under ‘normal’ circumstances, there are also circumstances such as sporting scandals which could result in a large number of disgruntled customers wanting to return their tickets.  As a result, the system needs to be robust enough that it won’t collapse under such demand, potentially causing further negative publicity.

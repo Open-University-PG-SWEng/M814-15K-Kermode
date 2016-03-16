@@ -1,0 +1,12 @@
+REQ-ID        : AG_NFR_01
+Description   : The product shall restrict access to the temporary queue of tickets.
+Type          : Security (15a Access Requirements)
+Rationale     : Only authorised members of the management team can examine and reallocate the temporary queue tickets.
+Fit Criterion : The system limits access to authorised personnel consistent with the Organising Games Information Security Access Control Policy
+Originator    : Ashley Glenister
+Comments      : [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+Comments      : [AG] Added NFR associated with FR_002
+Comments      : [HD] While it is a good idea  the standard quoted is not appropriate to the product as it only applies to European Comission information systems; the product is under Australian juristriction. It may be better to reference ISO27001 which has as control objectives a requirement to have an access control policy.
+Comments      : [MWC] As HD points out, the Games are under AU jurisdiction (and has AU Gov as a stakeholder).  The Games will likely be subject to Australian Privacy Principles Guidelines and various Acts and Regulations set out in those guidelines.  The 'fit criterion' might be better expressed as "limiting access to authorised personnel only subject to the Australian Privacy Principles Guidelines and associated legislation".
+Comments      : [AG] Agreed with comments. Change fit criterion to indicate using the Organisers standard for access control.
+Comments      : [AG] Old criterion was this - "The system limits access and is consistent with standard C(2006) 3602 Standard on access control and authentication."
