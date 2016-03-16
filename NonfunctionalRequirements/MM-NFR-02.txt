@@ -1,0 +1,6 @@
+Description: The system shall hold returned tickets until the next reallocation run
+Type: Performance (safety, accuracy)
+Rationale: This is intended to provide some means of analysing returned tickets before they are re-allocated and made again available to the public. Performance and reliability is crucial: No returned ticket shall be dropped, none should be duplicate (should the user klick twice, network hickups, etc).
+Fit Criterion: 100 % of returned tickets shall be stored in a system store. 100% of all tickets must be re-allocated in a reallocation run. None of the returned tickets must be stored as duplicates in the system store
+Originator: Markus Meyerhofer
+Comment: [MM] NFR based on HD_Func01 added

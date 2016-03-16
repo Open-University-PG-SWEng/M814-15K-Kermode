@@ -1,0 +1,10 @@
+REQ-ID: DW_NFR1
+Description: The product shall be pleasurable to use. 
+Type: 10
+Rationale: Customer satisfaction is a top priority. By providing a pleasurable ticket return process, the customer will be more likely to return and buy tickets for a different event.
+Fit Criterion: Customer surveys following a ticket return give an average satisfaction rating of 90 percent or greater.
+Originator: Edna Everage
+Comment: [DW] Added DW_NFR1 which is related to functional requirement REQ_LA_02.
+Comment: [LA] Adding suggested improvements to fit criterion. The fit criterion does not clearly describe how the requirement description can be tested. It suggests that a customer survey must be taken and that the expected result is that 90% of those surveyed give an average satisfaction rating following the ticket return process. The fit criterion should focus more on how to test that the ticket return process is easy for the customer as the requirement description suggests. 
+Comment: [MW] Maybe focus on the refinement of the requirement provided in the rationale - simplicity and pleasureable use could be two separate measures in the survey. It may be that not all survey's are completed by the customer (I'm assuming they won't be mandatory!) so perhaps include that as part of the fit criterion.
+Comment: [DW] Reworded description to place emphasis on pleasurable experience. Removed "simplicity" from rationale.
