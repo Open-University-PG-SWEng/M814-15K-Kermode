@@ -29,12 +29,17 @@ Comments: [jon-ayling] Added 2 functional requirements REQ-JA-01 and REQ-JA-02 (
 Comments: [mwhitfield16] Added 2 functional requirements REQ-MW-01 and REQ-MW-02 (10/02/16)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 REQ-ID: RT-FRQ-01 [Booking System (BUC1.2)]
 Description:  The system will determine which tickets are to be de-allocated.
 Type: Functional
 Rationale: This will enable other business functions to update the ticket inventory accordingly, and return the correct funds to the customer.
 Originator: Leslie Patterson
+=======
+Comments: [Helen_DA] Removed following requirements RT-FRQ-01, 005, HD_Func01, 02, BUC_RT02, REQ-MW-01, R02, REQ-JA-01, 003, 004, FR_001, MWC001, PRD_001, REQ-PB-01 and R01
+Comments: [markw-] 2016-03-04 This is the final agreed list of functional requirements. Added FR_001 and HD_Func01 back in and removed CAS-01 and CAS-02. Cleaned up the file some removing git tags (from an aborted merge I think). For more information see the Group work discussion forum item "Definitive list of requirements for TMA03".
+>>>>>>> origin/master
 =======
 Comments: [Helen_DA] Removed following requirements RT-FRQ-01, 005, HD_Func01, 02, BUC_RT02, REQ-MW-01, R02, REQ-JA-01, 003, 004, FR_001, MWC001, PRD_001, REQ-PB-01 and R01
 Comments: [markw-] 2016-03-04 This is the final agreed list of functional requirements. Added FR_001 and HD_Func01 back in and removed CAS-01 and CAS-02. Cleaned up the file some removing git tags (from an aborted merge I think). For more information see the Group work discussion forum item "Definitive list of requirements for TMA03".
@@ -75,6 +80,7 @@ Originator:  Leslie Patterson
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 REQ-ID:02
 Description:The product shall place returned tickets into a temporary store
 Type:9
@@ -83,12 +89,17 @@ Originator: Edna Everage
 =======
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> origin/master
 REQ-ID:      PRD_002
 Description: The product shall confirm that the number of tickets requested to be returned is not greater than the number already bought
 Type:        Functional
 Rationale:   To verify that the customer has not made a mistake entering the number of tickets
 Originator:  Edna Everage - Ticket Sales Representative
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 =======
 >>>>>>> origin/master
@@ -107,6 +118,7 @@ Description: The system will remove the allocations for specified tickets.
 Type:        Functional
 Rationale:   This will prevent the customer from re-using the same tickets after a refund, and make them available for allocation to other customers.
 Originator:  Leslie Patterson
+<<<<<<< HEAD
 
 REQ-ID:      FR_002
 Description: The product shall assign returned tickets to a reallocation queue
@@ -114,6 +126,15 @@ Type:        Functional
 Rationale:   Tickets are stored for up to 24hours so the organisers can check and then reallocate them
 Originator:  Edna Everage in Brisbane
 
+=======
+
+REQ-ID:      FR_002
+Description: The product shall assign returned tickets to a reallocation queue
+Type:        Functional
+Rationale:   Tickets are stored for up to 24hours so the organisers can check and then reallocate them
+Originator:  Edna Everage in Brisbane
+
+>>>>>>> origin/master
 
 Return Reason
 -------------
@@ -129,6 +150,9 @@ Description: The product shall allow a ticket return reason to be entered.
 Rational:    To allow the organisers to determine any pattern in the ticket return reasons.
 Originator:  Edna Everage - Domestic Ticket Sales
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
 
 <<<<<<< HEAD
 REQ-ID:      REQ-PB-02
@@ -137,6 +161,7 @@ Type:        Functional
 Rationale:   To ensure that the Customer knows whether to expect a credit to their Credit Card for the cost of the ticket, or if the Customer is a Sponsor so that they know tickets are being reallocated
 Originator:  Edna Everage
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 REQ-ID: MWC001
 Description: The product shall ensure that any tickets being returned by a customer were issued to that customer.
@@ -173,6 +198,17 @@ Rationale:   To make sure the ticket were sold to a valid customer.
 Originator:  Brisbane_Leslie Patterson
 
 >>>>>>> origin/master
+=======
+
+Valid Customer Identifier
+-------------------------
+REQ-ID:      BUC_RT01
+Description: The product shall accept a valid customer identifier.
+Type:        Functional
+Rationale:   To make sure the ticket were sold to a valid customer.
+Originator:  Brisbane_Leslie Patterson
+
+>>>>>>> origin/master
 REG-ID:      REQ_LA_01
 Description: The product shall ensure that the selected tickets being returned are connected to the correctly identified customer. 
 Type:        Functional
@@ -199,8 +235,13 @@ Originator  : Edna Everage in Brisbane
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 REG-ID : REQ_LA_01
 Description : The product shall ensure that the selected tickets being returned are connected to the correctly identified customer.
+=======
+REG-ID: REQ_LA_01
+Description: The product shall ensure that the selected tickets being returned are connected to the correctly identified customer. 
+>>>>>>> origin/master
 =======
 REG-ID: REQ_LA_01
 Description: The product shall ensure that the selected tickets being returned are connected to the correctly identified customer. 
@@ -216,6 +257,7 @@ Originator : Leslie Patterson - Business development
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 REG-ID : REQ_LA_02
 Description : The product shall only allow a ticket to be returned for a future event.
 Type: Functional
@@ -223,6 +265,8 @@ Rationale : A customer can only return a ticket for an event that has not alread
 Originator : Edna Everage - Domestic ticket sales
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> origin/master
 
 <<<<<<< HEAD
 Valid Ticket
@@ -238,6 +282,7 @@ Description: The product shall only allow a ticket to be returned for a future e
 Type:        Functional
 Rationale:   A customer can only return a ticket for an event that has not already taken place. 
 Originator:  Edna Everage - Domestic ticket sales
+<<<<<<< HEAD
 
 =======
 
@@ -258,6 +303,10 @@ Originator:  Edna Everage - Domestic ticket sales
 
 >>>>>>> origin/master
 
+=======
+
+
+>>>>>>> origin/master
 Verify Correct Tickets For Removal
 ----------------------------------
 REQ-ID:      REQ-JA-02
@@ -269,6 +318,7 @@ Type:        Functional
 Rationale:   To safeguard against users unfairly losing tickets in the event of unintentionally entering incorrect ticket identifiers
 Originator:  Leslie Patterson, via interview
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 REQ-ID: REQ-MW-01
@@ -298,10 +348,17 @@ Money Return
 ------------
 REQ-ID:      REQ-MW-02
 >>>>>>> origin/master
+=======
+
+Money Return
+------------
+REQ-ID:      REQ-MW-02
+>>>>>>> origin/master
 Description: The product shall accommodate the resale value of the returned tickets.
 Type:        Functional
 Rationale:   The customer needs to be returned some amount of money for their tickets.
 Originator:  Tacit from comments by Leslie Patterson, via interview
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 REQ-ID REQ-PB-02
@@ -330,6 +387,10 @@ Rationale   : Anti fraud check to prevent used or bogus tickets getting a refund
 Originator  : Edna Everage in Brisbane
 =======
 
+=======
+
+
+>>>>>>> origin/master
 
 =======
 REQ-ID: REQ-MW-02
@@ -337,6 +398,9 @@ Description: The product shall accommodate the resale value of the returned tick
 Type: Functional
 Rationale: The customer needs to be returned some amount of money for their tickets.
 Originator: Tacit from comments by Leslie Patterson, via interview
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 
 REQ-ID: HD_Func01
@@ -363,4 +427,7 @@ Type: Functional
 Rationale: To allow for analaysis of the return prior to reallocating to the wait list
 Originator: Enda Everage
 >>>>>>> 218e041836e6b17a4fbfc04319570e60019419f9
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master

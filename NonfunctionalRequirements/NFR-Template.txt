@@ -14,5 +14,9 @@ Rationale:
 Fit Criterion:
 Originator:
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+<<<<<<< HEAD
+Comment: [Sam S] This is a Sam testing of adding a comment 11Jan16.
+>>>>>>> origin/master
+=======
 Comment: [Sam S] This is a Sam testing of adding a comment 11Jan16.
 >>>>>>> origin/master
